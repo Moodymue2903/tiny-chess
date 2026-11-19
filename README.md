@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/Moodymue2903/tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/Moodymue2903/tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-An original 0x88 chess engine in under 4 KB of Python: negamax alpha-beta with iterative deepening, quiescence search, transposition table, MVV-LVA move ordering and a 1-ply opening book. Practice Elo 1601.7 against the house gauntlet.
+An original 0x88 chess engine in under 4 KB of Python: negamax alpha-beta with iterative deepening, quiescence search, transposition table, PVS, null-move and late-move reductions, killer moves, and aspiration windows (W=40, full-window retry on fail). Practice Elo 1770.3 against the house gauntlet; 1676.5 mean Elo across six fresh-draw trials.
 
 ## Run it
 
